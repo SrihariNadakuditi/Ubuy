@@ -15,7 +15,6 @@ Once you've connected your application to Supabase. You'll also need to set up t
     
 Now run the command to migrate your database tables and run your seed file.
     
-```
 npx prisma migrate dev --name init
 
 npx prisma generate
@@ -25,7 +24,6 @@ npx prisma db seed
 npm i
 
 npm run dev
-```
 
 
 
